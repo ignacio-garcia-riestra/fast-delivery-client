@@ -1,11 +1,11 @@
 const DeliveryHistory = (): JSX.Element => {
-  return (
-    <div
-      //className="bg-red-100"
-    >
+	return (
+		<div
+			//className="bg-red-100"
+		>
       Delivery History
-    </div>
-  )
-};
+		</div>
+	)
+}
   
-export default DeliveryHistory;
+export default DeliveryHistory

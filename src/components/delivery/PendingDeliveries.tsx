@@ -1,11 +1,11 @@
 const PendingDeliveries = (): JSX.Element => {
-  return (
-    <div
-      className="ml-[100px]"
-    >
+	return (
+		<div
+			className="ml-[100px]"
+		>
       Pending Deliveries
-    </div>
-  )
-};
+		</div>
+	)
+}
 
-export default PendingDeliveries;
+export default PendingDeliveries

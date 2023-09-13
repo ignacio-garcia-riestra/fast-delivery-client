@@ -1,24 +1,24 @@
-import "./index.css"
-import { Routes, Route, BrowserRouter } from "react-router-dom";
-import DeliveriesDashboard from "./pages/DeliveriesDashboard";
+import './index.css'
+import { Routes, Route, BrowserRouter } from 'react-router-dom'
+import DeliveriesDashboard from './pages/DeliveriesDashboard'
 
 function App() {
-  return (
-	<div
-	  className="bg-red-100 p-20"
-	>
+	return (
+		<div
+			className="bg-red-100 p-20"
+		>
 	
-	{/* APP */}
-    <BrowserRouter>
-      <Routes>
-        <Route
-          path="/deliveries"
-          element={<DeliveriesDashboard />}
-        />
-      </Routes>
-    </BrowserRouter>
-	</div>
-  );
+			{/* APP */}
+			<BrowserRouter>
+				<Routes>
+					<Route
+						path="/deliveries"
+						element={<DeliveriesDashboard />}
+					/>
+				</Routes>
+			</BrowserRouter>
+		</div>
+	)
 }
 
-export default App;
+export default App
