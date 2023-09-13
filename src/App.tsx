@@ -1,17 +1,24 @@
-import axios from 'axios'
-import './index.css'
-import Layout from './components/layout/Layout'
+import "./index.css"
+import { Routes, Route, BrowserRouter } from "react-router-dom";
+import DeliveriesDashboard from "./pages/DeliveriesDashboard";
 
 function App() {
-	const URL = 'http://localhost:4000/'
-	axios.get(URL).then(response => {
-		console.log(response.data)
-	})
-	return (
-		<Layout>
-			{/* <div>WELCOME TO LOGIN</div> */}
-		</Layout>
-	)
+  return (
+	<div
+	  className="bg-red-100 p-20"
+	>
+	
+	{/* APP */}
+    <BrowserRouter>
+      <Routes>
+        <Route
+          path="/deliveries"
+          element={<DeliveriesDashboard />}
+        />
+      </Routes>
+    </BrowserRouter>
+	</div>
+  );
 }
 
-export default App
+export default App;
