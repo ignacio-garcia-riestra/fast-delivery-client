@@ -11,6 +11,9 @@ export default {
 				'green-fd': '#00EA77',
 				'light-green-fd': '#C7FFB1',
 				'white-fd': '#FFFFFF'
+			},
+			fontFamily: {
+				'poppins': ['Poppins'],
 			}
 		},
 	},

@@ -7,7 +7,7 @@ interface Props {
 
 const Layout = ({ children }: Props) => {
 	return (
-		<div className="flex flex-col min-h-screen overflow-hidden bg-blue-fd">
+		<div className="w-screen flex flex-col min-h-screen overflow-hidden bg-blue-fd">
 			<Navbar />
 			{children}
 		</div>

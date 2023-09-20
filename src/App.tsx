@@ -4,17 +4,10 @@ import DeliveriesDashboard from './pages/DeliveriesDashboard'
 
 function App() {
 	return (
-		<div
-			className="bg-red-100 p-20"
-		>
-	
-			{/* APP */}
+		<div className="font-poppins">
 			<BrowserRouter>
 				<Routes>
-					<Route
-						path="/deliveries"
-						element={<DeliveriesDashboard />}
-					/>
+					<Route path="/deliveries" element={<DeliveriesDashboard />} />
 				</Routes>
 			</BrowserRouter>
 		</div>
